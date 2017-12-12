@@ -13,6 +13,10 @@
 		DF96B7511FCC96C6003E83EA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF96B7501FCC96C6003E83EA /* Images.xcassets */; };
 		DF96B7541FCC96C6003E83EA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF96B7521FCC96C6003E83EA /* LaunchScreen.xib */; };
 		DF96B7601FCC96C7003E83EA /* CheekiTools2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF96B75F1FCC96C7003E83EA /* CheekiTools2Tests.swift */; };
+		DFAC31931FE03A8C009DCAB9 /* Nonceset.m in Sources */ = {isa = PBXBuildFile; fileRef = DFAC31921FE03A8C009DCAB9 /* Nonceset.m */; };
+		DFAC319E1FE03CA6009DCAB9 /* nvpatch.m in Sources */ = {isa = PBXBuildFile; fileRef = DFAC31991FE03CA6009DCAB9 /* nvpatch.m */; };
+		DFAC31A01FE03CA6009DCAB9 /* v0rtex.m in Sources */ = {isa = PBXBuildFile; fileRef = DFAC319D1FE03CA6009DCAB9 /* v0rtex.m */; };
+		DFAC31AC1FE04B1C009DCAB9 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFAC31AB1FE04B1C009DCAB9 /* IOKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,23 @@
 		DF96B7591FCC96C7003E83EA /* CheekiTools2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheekiTools2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF96B75E1FCC96C7003E83EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF96B75F1FCC96C7003E83EA /* CheekiTools2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheekiTools2Tests.swift; sourceTree = "<group>"; };
+		DFAC31911FE03A8B009DCAB9 /* CheekiTools2-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CheekiTools2-Bridging-Header.h"; sourceTree = "<group>"; };
+		DFAC31921FE03A8C009DCAB9 /* Nonceset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Nonceset.m; sourceTree = "<group>"; };
+		DFAC31981FE03CA6009DCAB9 /* nvpatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nvpatch.h; sourceTree = "<group>"; };
+		DFAC31991FE03CA6009DCAB9 /* nvpatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = nvpatch.m; sourceTree = "<group>"; };
+		DFAC319C1FE03CA6009DCAB9 /* v0rtex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = v0rtex.h; sourceTree = "<group>"; };
+		DFAC319D1FE03CA6009DCAB9 /* v0rtex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = v0rtex.m; sourceTree = "<group>"; };
+		DFAC31A11FE03CB1009DCAB9 /* mach-o.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "mach-o.h"; sourceTree = "<group>"; };
+		DFAC31A21FE03CB9009DCAB9 /* arch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = arch.h; sourceTree = "<group>"; };
+		DFAC31A31FE03CB9009DCAB9 /* common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
+		DFAC31A41FE03DF9009DCAB9 /* Nonceset.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Nonceset.h; sourceTree = "<group>"; };
+		DFAC31A61FE044C2009DCAB9 /* IOKitKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOKitKeys.h; sourceTree = "<group>"; };
+		DFAC31A71FE044C2009DCAB9 /* IOKitLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOKitLib.h; sourceTree = "<group>"; };
+		DFAC31A81FE044C2009DCAB9 /* IOReturn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOReturn.h; sourceTree = "<group>"; };
+		DFAC31A91FE044C2009DCAB9 /* IOTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOTypes.h; sourceTree = "<group>"; };
+		DFAC31AA1FE044C2009DCAB9 /* OSMessageNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSMessageNotification.h; sourceTree = "<group>"; };
+		DFAC31AB1FE04B1C009DCAB9 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = CheekiTools2/IOKit.framework; sourceTree = "<group>"; };
+		DFAC31AD1FE05F3A009DCAB9 /* v0rtex2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = v0rtex2.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFAC31AC1FE04B1C009DCAB9 /* IOKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +81,7 @@
 		DF96B73B1FCC96C6003E83EA = {
 			isa = PBXGroup;
 			children = (
+				DFAC31AB1FE04B1C009DCAB9 /* IOKit.framework */,
 				DF96B7461FCC96C6003E83EA /* CheekiTools2 */,
 				DF96B75C1FCC96C7003E83EA /* CheekiTools2Tests */,
 				DF96B7451FCC96C6003E83EA /* Products */,
@@ -77,12 +100,24 @@
 		DF96B7461FCC96C6003E83EA /* CheekiTools2 */ = {
 			isa = PBXGroup;
 			children = (
+				DFAC31A51FE044C2009DCAB9 /* IOKit */,
+				DFAC31A21FE03CB9009DCAB9 /* arch.h */,
+				DFAC31A31FE03CB9009DCAB9 /* common.h */,
+				DFAC31A11FE03CB1009DCAB9 /* mach-o.h */,
+				DFAC31981FE03CA6009DCAB9 /* nvpatch.h */,
+				DFAC31991FE03CA6009DCAB9 /* nvpatch.m */,
+				DFAC319C1FE03CA6009DCAB9 /* v0rtex.h */,
+				DFAC319D1FE03CA6009DCAB9 /* v0rtex.m */,
+				DFAC31AD1FE05F3A009DCAB9 /* v0rtex2.h */,
 				DF96B7491FCC96C6003E83EA /* AppDelegate.swift */,
 				DF96B74B1FCC96C6003E83EA /* ViewController.swift */,
 				DF96B74D1FCC96C6003E83EA /* Main.storyboard */,
+				DFAC31A41FE03DF9009DCAB9 /* Nonceset.h */,
+				DFAC31921FE03A8C009DCAB9 /* Nonceset.m */,
 				DF96B7501FCC96C6003E83EA /* Images.xcassets */,
 				DF96B7521FCC96C6003E83EA /* LaunchScreen.xib */,
 				DF96B7471FCC96C6003E83EA /* Supporting Files */,
+				DFAC31911FE03A8B009DCAB9 /* CheekiTools2-Bridging-Header.h */,
 			);
 			path = CheekiTools2;
 			sourceTree = "<group>";
@@ -110,6 +145,19 @@
 				DF96B75E1FCC96C7003E83EA /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DFAC31A51FE044C2009DCAB9 /* IOKit */ = {
+			isa = PBXGroup;
+			children = (
+				DFAC31A61FE044C2009DCAB9 /* IOKitKeys.h */,
+				DFAC31A71FE044C2009DCAB9 /* IOKitLib.h */,
+				DFAC31A81FE044C2009DCAB9 /* IOReturn.h */,
+				DFAC31A91FE044C2009DCAB9 /* IOTypes.h */,
+				DFAC31AA1FE044C2009DCAB9 /* OSMessageNotification.h */,
+			);
+			name = IOKit;
+			path = Headers/IOKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +260,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFAC31A01FE03CA6009DCAB9 /* v0rtex.m in Sources */,
+				DFAC319E1FE03CA6009DCAB9 /* nvpatch.m in Sources */,
+				DFAC31931FE03A8C009DCAB9 /* Nonceset.m in Sources */,
 				DF96B74C1FCC96C6003E83EA /* ViewController.swift in Sources */,
 				DF96B74A1FCC96C6003E83EA /* AppDelegate.swift in Sources */,
 			);
@@ -338,9 +389,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CheekiTools2",
+				);
 				INFOPLIST_FILE = CheekiTools2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CheekiTools2/CheekiTools2-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -348,9 +406,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CheekiTools2",
+				);
 				INFOPLIST_FILE = CheekiTools2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CheekiTools2/CheekiTools2-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -407,6 +471,7 @@
 				DF96B7651FCC96C7003E83EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF96B7661FCC96C7003E83EA /* Build configuration list for PBXNativeTarget "CheekiTools2Tests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +480,7 @@
 				DF96B7681FCC96C7003E83EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
